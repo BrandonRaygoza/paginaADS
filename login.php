@@ -30,7 +30,7 @@
                 <form method="get" action="">
                         <p>
                             <input type="text" name="nombre" placeholder="Usuario">
-                            <input type="password" name="matricula" placeholder="*****">
+                            <input type="password" name="matricula" placeholder="Clave">
                             
                         </p>
                         <input type="submit" value="Ingresar" class="button">
