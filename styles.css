@@ -113,6 +113,7 @@ header img{
     margin-right: 30px;
     padding-top: 20px;
     padding-left: 20px;
+    padding-right: 20px;
     padding-bottom: 20px;
     color: #717171;
     line-height: 50px;
@@ -249,37 +250,29 @@ input[type=submit]:hover{
   padding: 30px;
 }
 
-
-
-#tabla{
+table {
+    font-family: arial, sans-serif;
     border-collapse: collapse;
-    width: 80%;
-    margin-top: 20px;
-    font-size: 15px;
-    height: 100%;
-}
-
-#tabla td, #tabla th{
-    border: 1px solid #ddd;
-    padding: 8px;
-}
-
-#tabla tr:nth-child(even){
-    background-color: #f2f2f2;
-}
-
-#tabla tr:hover{
-    background-color: #ddd;
-}
-
-#tabla th{
-    padding-top: 12px;
-    padding-bottom: 12px;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
     text-align: left;
-    background-color: #b3b3b3;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #e6e6e6;
+  }
+
+  th {
+    background-color: #00723F;
     color: white;
-}
+  }
 
 .wrapper .main_content .info div{
     margin-bottom: 20px;
 }
+
+
