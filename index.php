@@ -16,34 +16,33 @@
           <h5>Menu</h5>
             <ul>
                 <li><a class="<?php echo ($page == "index.php" ? "active" : "")?>" href="index.php"><i class="fas fa-home"></i>Inicio</a></li>
-                <li><a class="<?php echo ($page == "reportes.php" ? "active" : "")?>" href="index.php?op=1"><i class="fas fa-paste"></i>Reportes</a></li>
-                <li><a class="<?php echo ($page == "clientes.php" ? "active" : "")?>" href="index.php?op=2"><i class="fas fa-users"></i>Clientes</a></li>
-                <li><a class="<?php echo ($page == "ordenes.php" ? "active" : "")?>" href="index.php?op=3"><i class="fas fa-clipboard-check"></i>Ordenes</a></li>
-                <li><a class="<?php echo ($page == "entregas.php" ? "active" : "")?>" href="index.php?op=4"><i class="fas fa-motorcycle"></i>Entregas</a></li>
-                <li><a class="<?php echo ($page == "almacen.php" ? "active" : "")?>" href="index.php?op=5"><i class="fas fa-box-open"></i>Almacen</a></li>
-                <li><a class="<?php echo ($page == "productos.php" ? "active" : "")?>" href="index.php?op=6"><i class="fas fa-utensils"></i>Productos</a></li>
-                <li><a class="<?php echo ($page == "ventas.php" ? "active" : "")?>" href="index.php?op=7"><i class="fas fa-dollar-sign"></i>Ventas</a></li>
-                <li><a class="<?php echo ($page == "personal.php" ? "active" : "")?>" href="index.php?op=8"><i class="fas fa-address-book"></i>Personal</a></li>
+                <li><a class="<?php echo ($page == "Consultar.php" ? "active" : "")?>" href="index.php?op=1"><i class="fas fa-paste"></i>Consultar horario preliminar</a></li>
+                <li><a class="<?php echo ($page == "clientes.php" ? "active" : "")?>" href="index.php?op=2"><i class="fas fa-users"></i>Consultar estado de subasta</a></li>
+                <li><a class="<?php echo ($page == "ordenes.php" ? "active" : "")?>" href="index.php?op=3"><i class="fas fa-clipboard-check"></i>Informacion personal</a></li>
             </ul>
         </div>
 
         <header>
-            <img src="cimarron.png" alt="logo" width="105" height="110">
-            <h1>Sistema de Reinscripciones de la UABC</h1>
+            <img src="logoUABC.png" alt="logo" width="150" height="150">
+            <h1>Sistema de Reinscripciones</h1>
             
         </header>
 
       <div class = "wrapper">
           <div class="main_content">
               <div class="header">
-                  <?php
-                    echo $titulo_contenido;
-                  ?>
+                  <p>
+                      Bienvenido
+                  </p>
               </div>
               <div class="info">
-                  <?php
-                    include $contenido;
-                  ?>
+                  <p>
+                    Usuario: JUANITO PEREZ ROSALES <br>
+                    Matricula: 1234456  <br>
+
+                    <a href="" class="botonCarga">Generar carga academica</a>
+                  
+                  </p>
                   
               </div>
           </div>

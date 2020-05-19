@@ -26,8 +26,8 @@
                     echo $titulo_contenido;
                   ?>
               </div>
-              <div class="info">
-                <form method="get" action="">
+              <div class="login">
+                <form method="get" action="index.php">
                         <p>
                             <input type="text" name="nombre" placeholder="Usuario">
                             <input type="password" name="matricula" placeholder="Clave">
