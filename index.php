@@ -40,7 +40,7 @@
                     Usuario: JUANITO PEREZ ROSALES <br>
                     Matricula: 1234456  <br>
 
-                    <a href="sinMaterias.php" class="botonCarga">Generar carga academica</a>
+                    <a href="sinMaterias.php" class="botonCarga">Manejar carga academica</a>
                   
                   </p>
                   

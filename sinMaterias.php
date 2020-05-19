@@ -42,7 +42,6 @@
                 Agrega presionando el boton "Agregar materia".
                 </center>
                 <a href="tabla_MateriasDisponibles.php" class="botonA">Agregar materia</a>
-                <a href="" class="botonB">Eliminar materia</a>
                 <p>
               </div>
           </div>
