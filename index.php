@@ -13,7 +13,7 @@
   </head>
   <body>
       <div class = "sidebar">
-          <h5>Menu</h5>
+          <h5> </h5>
             <ul>
                 <li><a class="<?php echo ($page == "index.php" ? "active" : "")?>" href="index.php"><i class="fas fa-home"></i>Inicio</a></li>
                 <li><a class="<?php echo ($page == "Consultar.php" ? "active" : "")?>" href="index.php?op=1"><i class="fas fa-paste"></i>Consultar horario preliminar</a></li>
