@@ -28,7 +28,7 @@
         </div>
 
         <header>
-            <img src="images.jpg" alt="logo" width="105" height="110">
+            <img src="cimarron.png" alt="logo" width="105" height="110">
             <h1>Sistema de Reinscripciones de la UABC</h1>
             
         </header>
