@@ -12,7 +12,7 @@
     <script src="https://kit.fontawesome.com/0c23213105.js" crossorigin="anonymous"></script>
   </head>
   <body>
-      <div class = "sidebar">
+        <div class = "sidebar">
           <h5>Menu</h5>
             <ul>
                 <li><a class="<?php echo ($page == "index.php" ? "active" : "")?>" href="index.php"><i class="fas fa-home"></i>Inicio</a></li>
@@ -21,29 +21,29 @@
                 <li><a class="<?php echo ($page == "ordenes.php" ? "active" : "")?>" href="index.php?op=3"><i class="fas fa-clipboard-check"></i>Informacion personal</a></li>
             </ul>
         </div>
-
+      
         <header>
             <img src="logoUABC.png" alt="logo" width="150" height="150">
-            <h1>Sistema de Reinscripciones</h1>
+            <h1>Subasta de materia</h1>
             
         </header>
 
       <div class = "wrapper">
           <div class="main_content">
               <div class="header">
-                  <p>
-                      Bienvenido
-                  </p>
+                <h1>Tu carga academica</h1>
               </div>
-              <div class="info">
-                  <p>
-                    Usuario: JUANITO PEREZ ROSALES <br>
-                    Matricula: 1234456  <br>
 
-                    <a href="sinMaterias.php" class="botonCarga">Generar carga academica</a>
-                  
-                  </p>
-                  
+              <div class="info">
+                <p>
+                <center>  
+                  <h2>OOPS!</h2>
+                Parece que nos has agregado materias a tu carga. 
+                Agrega presionando el boton "Agregar materia".
+                </center>
+                <a href="" class="botonA">Agregar materia</a>
+                <a href="" class="botonB">Eliminar materia</a>
+                <p>
               </div>
           </div>
     </div>

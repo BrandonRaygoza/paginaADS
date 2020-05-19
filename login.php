@@ -26,11 +26,11 @@
                     echo $titulo_contenido;
                   ?>
               </div>
-              <div class="info">
+              <div class="login">
                 <form method="get" action="index.php">
                         <p>
                             <input type="text" name="nombre" placeholder="Usuario">
-                            <input type="password" name="matricula" placeholder="*****">
+                            <input type="password" name="matricula" placeholder="Clave">
                             
                         </p>
                         <input type="submit" value="Ingresar" class="button">
