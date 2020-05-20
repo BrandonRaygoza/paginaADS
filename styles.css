@@ -187,7 +187,7 @@ header img{
     position: relative;
     width: 255px;
     padding: 10px 50px;
-    margin-left: 5%;
+    margin-left: 30%;
 }
 
 .botonB
@@ -223,7 +223,7 @@ header img{
 }
 
 .btncog{
-    background-color: #C62B29; 
+    background-color: #DD971A; 
     border: 1px solid #ccc;
     border-radius: 4px;
     padding: 7px 10px;

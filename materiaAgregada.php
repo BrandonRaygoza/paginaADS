@@ -31,39 +31,35 @@
       <div class = "wrapper">
           <div class="main_content">
               <div class="header">
-                <h1>Materias habilitadas</h1>
+                <h1>Tu carga academica</h1>
               </div>
+
               <div class="info">
-                <table>
+                  
+              <table>
                     <tr>
                         <th>Materia</th>
                         <th>Acciones</th>
                     </tr>
                     <tr>
-                        <td>Programacion Estructurada</td>
-                        <td><a href="#">Agregar a mi carga</a></td>
-                    </tr>
-                    <tr>
-                        <td>Circuitos Digitales</td>
-                        <td><a href="#">Agregar a mi carga</a></td>
-                    </tr>
-                    <tr>
-                        <td>Sistema Operativo UNIX</td>
-                        <td><a href="#">Agregar a mi carga</a></td>
-                    </tr>
-                    <tr>
                         <td>Mediciones Electricas</td>
-                        <td><a href="materiaAgregada.php">Agregar a mi carga</a></td>
-                    </tr>
-                    <tr>
-                        <td>Ecuaciones Diferenciales</td>
-                        <td><a href="#">Agregar a mi carga</a></td>
-                    </tr>
-                    <tr>
-                        <td>Matematicas Avanzadas</td>
-                        <td><a href="#">Agregar a mi carga</a></td>
+                        <td>
+                            <div class="dropdown">
+                            <button class="btncog">
+                                <i class="fa fa-cog"></i> 
+                                <i class="fa fa-caret-down"></i>
+                            </button>
+                                <div class="dropdown-content">
+                                    <a href="#">Ver subasta</a>
+                                    <a href="sinMaterias.php">Eliminar</a>
+                                </div>
+                            </div>
+                    </td>
                     </tr>
                 </table>
+                <br>
+                <a href="tabla_MateriasDisponibles.php" class="botonA">Agregar materia</a>
+                
               </div>
           </div>
     </div>
