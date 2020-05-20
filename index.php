@@ -32,7 +32,7 @@
           <div class="main_content">
               <div class="header">
                   <p>
-                      Bienvenido
+                      Agregar Materias
                   </p>
               </div>
               <div class="info">
@@ -40,12 +40,22 @@
                     Usuario: JUANITO PEREZ ROSALES <br>
                     Matricula: 1234456  <br>
 
-                    <a href="sinMaterias.php" class="botonCarga">Generar carga academica</a>
+                    <a href="agregarMaterias.php" class="botonCarga">Generar carga academica</a>
                   
                   </p>
                   
               </div>
           </div>
     </div>
+
   </body>
 </html>
+
+
+
+
+
+
+
+
+
