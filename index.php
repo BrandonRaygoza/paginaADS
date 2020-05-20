@@ -16,7 +16,7 @@
           <h5> </h5>
             <ul>
                 <li><a class="<?php echo ($page == "index.php" ? "active" : "")?>" href="index.php"><i class="fas fa-home"></i>Inicio</a></li>
-                <li><a class="<?php echo ($page == "Consultar.php" ? "active" : "")?>" href="index.php?op=1"><i class="fas fa-paste"></i>Consultar horario preliminar</a></li>
+                <li><a class="<?php echo ($page == "consultarHorario.php" ? "active" : "")?>" href="consultarHorario.php"><i class="fas fa-paste"></i>Consultar horario preliminar</a></li>
                 <li><a class="<?php echo ($page == "clientes.php" ? "active" : "")?>" href="index.php?op=2"><i class="fas fa-users"></i>Consultar estado de subasta</a></li>
                 <li><a class="<?php echo ($page == "ordenes.php" ? "active" : "")?>" href="index.php?op=3"><i class="fas fa-clipboard-check"></i>Informacion personal</a></li>
             </ul>
@@ -40,7 +40,7 @@
                     Usuario: JUANITO PEREZ ROSALES <br>
                     Matricula: 1234456  <br>
 
-                    <a href="sinMaterias.php" class="botonCarga">Generar carga academica</a>
+                    <a href="sinMaterias.php" class="botonCarga">Manejar carga academica</a>
                   
                   </p>
                   
