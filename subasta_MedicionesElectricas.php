@@ -31,7 +31,7 @@
       <div class = "wrapper">
           <div class="main_content">
               <div class="header">
-                <h1>Nombre materia</h1>
+                <h1>Mediciones Electricas</h1>
               </div>
               <div class="info">
                 <table>
@@ -42,11 +42,16 @@
                     </tr>
                     <tr>
                         <td>1</td>
-                        <td>Sergio Daniel Gonzalez Ortega</td>
-                        <td>20000</td>
+                        <td>Juanito Perez Rosales</td>
+                        <td>17500</td>
                     </tr>
                     <tr>
                         <td>2</td>
+                        <td>Sergio Daniel Gonzalez Ortega</td>
+                        <td>16000</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
                         <td>Brandon Raygoza</td>
                         <td>5000</td>
                     </tr>

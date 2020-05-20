@@ -16,7 +16,7 @@
           <h5> </h5>
             <ul>
                 <li><a class="<?php echo ($page == "index.php" ? "active" : "")?>" href="index.php"><i class="fas fa-home"></i>Inicio</a></li>
-                <li><a class="<?php echo ($page == "Consultar.php" ? "active" : "")?>" href="index.php?op=1"><i class="fas fa-paste"></i>Consultar horario preliminar</a></li>
+                <li><a class="<?php echo ($page == "Consultar.php" ? "active" : "")?>" href="consultarHorario.php"><i class="fas fa-paste"></i>Consultar horario preliminar</a></li>
                 <li><a class="<?php echo ($page == "clientes.php" ? "active" : "")?>" href="index.php?op=2"><i class="fas fa-users"></i>Consultar estado de subasta</a></li>
                 <li><a class="<?php echo ($page == "ordenes.php" ? "active" : "")?>" href="index.php?op=3"><i class="fas fa-clipboard-check"></i>Informacion personal</a></li>
             </ul>
@@ -37,21 +37,21 @@
               </div>
               <div class="info">
                   
-              <table >
+              <table>
                 <tr>
-                    <td>Horario</td>
-                    <td>Lunes</td>
-                    <td>Martes</td>
-                    <td>Miercoles</td>
-                    <td>Jueves</td>
-                    <td>Viernes</td>
+                    <th>Horario</th>
+                    <th>Lunes</th>
+                    <th>Martes</th>
+                    <th>Miercoles</th>
+                    <th>Jueves</th>
+                    <th>Viernes</th>
                 </tr>
                 <tr>
                     <td>7:00 - 8:00</td>
+                    <td>Med. Electricas</td>
+                    <td>Med. Electricas</td>
                     <td>----</td>
-                    <td>----</td>
-                    <td>----</td>
-                    <td>----</td>
+                    <td>Med. Electricas</td>
                     <td>----</td>
                 </tr>
                 <tr>
@@ -59,7 +59,7 @@
                     <td>----</td>
                     <td>----</td>
                     <td>----</td>
-                    <td>----</td>
+                    <td>Med. Electricas</td>
                     <td>----</td>
                 </tr>
                 <tr>

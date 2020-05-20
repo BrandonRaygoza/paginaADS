@@ -50,7 +50,7 @@
                                 <i class="fa fa-caret-down"></i>
                             </button>
                                 <div class="dropdown-content">
-                                    <a href="#">Ver subasta</a>
+                                    <a href="subasta_MedicionesElectricas.php">Ver subasta</a>
                                     <a href="sinMaterias.php">Eliminar</a>
                                 </div>
                             </div>
