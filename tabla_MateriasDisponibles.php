@@ -47,7 +47,7 @@
                                 <i class="fa fa-caret-down"></i>
                             </button>
                                 <div class="dropdown-content">
-                                    <a href="subasta_MedicionesElectricas.php">Solicitar</a>
+                                    <a href="subasta_MedicionesElectricas.php">Agregar</a>
                                     <a href="sinMaterias.php">Ver detalles</a>
                                 </div>
                             </div>
@@ -61,7 +61,7 @@
                                 <i class="fa fa-caret-down"></i>
                             </button>
                                 <div class="dropdown-content">
-                                    <a href="subasta_MedicionesElectricas.php">Solicitar</a>
+                                    <a href="subasta_MedicionesElectricas.php">Agregar</a>
                                     <a href="sinMaterias.php">Ver detalles</a>
                                 </div>
                             </div>
@@ -75,7 +75,7 @@
                                 <i class="fa fa-caret-down"></i>
                             </button>
                                 <div class="dropdown-content">
-                                    <a href="subasta_MedicionesElectricas.php">Solicitar</a>
+                                    <a href="subasta_MedicionesElectricas.php">Agregar</a>
                                     <a href="sinMaterias.php">Ver detalles</a>
                                 </div>
                             </div>
@@ -89,7 +89,7 @@
                                 <i class="fa fa-caret-down"></i>
                             </button>
                                 <div class="dropdown-content">
-                                    <a href="materiaAgregada.php">Solicitar</a>
+                                    <a href="materiaAgregada.php">Agregar</a>
                                     <a href="detallesMateria.php">Ver detalles</a>
                                 </div>
                             </div>
@@ -103,7 +103,7 @@
                                 <i class="fa fa-caret-down"></i>
                             </button>
                                 <div class="dropdown-content">
-                                    <a href="subasta_MedicionesElectricas.php">Solicitar</a>
+                                    <a href="subasta_MedicionesElectricas.php">Agregar</a>
                                     <a href="sinMaterias.php">Ver detalles</a>
                                 </div>
                             </div>
@@ -117,7 +117,7 @@
                                 <i class="fa fa-caret-down"></i>
                             </button>
                                 <div class="dropdown-content">
-                                    <a href="subasta_MedicionesElectricas.php">Solicitar</a>
+                                    <a href="subasta_MedicionesElectricas.php">Agregar</a>
                                     <a href="">Ver detalles</a>
                                 </div>
                             </div>
