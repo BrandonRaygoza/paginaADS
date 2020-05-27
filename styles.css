@@ -137,6 +137,23 @@ header img{
 }
 
 /*====================BOTONES==================*/
+.boton2{
+    background-color: #B08208;
+    font-size: 16px;
+    color: white;
+    padding: 12px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.boton2:hover{
+    background-color: #FEBE10;
+}
+
 .button{
     background-color: #50B848; 
     font-size: 16px;

@@ -22,19 +22,17 @@
       <div class = "wrapper">
           <div class="main_content">
               <div class="header">
-                <h2>Inicio de sesion alumnos </h2>
-
-                  <a href="loginTutor.php" class="boton2">Tutor</a>
+                <h2>Inicio de sesion tutores </h2>
+                  <a href="login.php" class="boton2">Alumno</a>
               </div>
               <div class="login">
-                <form method="get" action="index.php">
+                <form method="get" action="menuTutor.php">
                         <p>
                             <input type="text" name="nombre" placeholder="Usuario">
                             <input type="password" name="matricula" placeholder="Clave">
                         </p>
                         <input type="submit" value="Ingresar" class="button">
                 </form> 
-                
               </div>
           </div> 
     </div>
